@@ -8,7 +8,7 @@ class Obstacle {
     this.element = document.createElement('img')
     this.speed = 5
 
-    this.element.src = '../images/redCar.png'
+    this.element.src = 'images/redCar.png'
     this.element.style.position = 'absolute'
     this.element.style.width = `${this.width}px`
     this.element.style.height = `${this.height}px`
