@@ -9,7 +9,7 @@ class Player {
     this.speed = 3
     this.directionX = 0
 
-    this.element.src = '../images/car.png'
+    this.element.src = 'images/car.png'
     this.element.style.position = 'absolute'
     this.element.style.width = `${this.width}px`
     this.element.style.height = `${this.height}px`
